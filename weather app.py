@@ -12,9 +12,6 @@ while True:
         exit()
     else:
         try:
-
-            print()
-
             location = lambda query: geolocator.geocode("%s, United States" % query)
 
             latitude = location(user_input).latitude
